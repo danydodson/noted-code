@@ -1,0 +1,21 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "example app for class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Edwin Diaz",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "ws": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
