@@ -238,3 +238,15 @@ $RECYCLE.BIN/
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
 /node basics/node_modules
+/react snippets/animations/node_modules
+/react snippets/base syntax/node_modules
+/react snippets/conditionals/node_modules
+/react snippets/debugging/node_modules
+/react snippets/deeper comps/node_modules
+/react snippets/http ajax/node_modules
+/react snippets/next js/node_modules
+/react snippets/redux casts/node_modules
+/react snippets/redux saga/node_modules
+/react snippets/styling comps/node_modules
+/react snippets/webpack/node_modules
+/react snippets/animations/build
