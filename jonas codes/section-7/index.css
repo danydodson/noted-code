@@ -1,0 +1,19 @@
+.box {
+	width: 200px;
+	padding: 25px 80px;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 30px;
+}
+
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: dodgerblue;
+}
+
+.orange {
+	background-color: orangered;
+}

@@ -1,11 +1,11 @@
-const { MongoClient, ObjectId } = require('mongodb');
+const { MongoClient, ObjectId } = require('mongodb')
 
-MongoClient.connect('mongodb://localhost:27017', function(err, client) {
-  if (err) throw err;
+MongoClient.connect('mongodb://localhost:27017', function (err, client) {
+  if (err) throw err
   // const object = new ObjectId();
   // console.log(object);
-  console.log('CONNECTED');
-  const db = client.db('animals');
+  console.log('CONNECTED')
+  const db = client.db('animals')
 
   // CREATING DATA
   //     db.collection('mammals').insertOne({
@@ -43,9 +43,9 @@ MongoClient.connect('mongodb://localhost:27017', function(err, client) {
     _id: new ObjectId('5a5e6575274ddf211cbb6cb9')
   }).then(result => {
     console.log(result)
-  });
+  })
 
-});
+})
 
 // const mongoose = require('mongoose');
 // mongoose.connect('mongodb://localhost:27017/animals', {useMongoClient: true});

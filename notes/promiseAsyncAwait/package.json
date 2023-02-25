@@ -1,0 +1,12 @@
+{
+  "name": "promises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "async.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.15.0"
+  }
+}
