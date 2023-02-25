@@ -1,9 +1,9 @@
-const axios = require('axios');
+const axios = require('axios')
 
-let username = 'DanyDodson';
+let username = 'DanyDodson'
 
 axios.get('https://api.github.com/users/' + username).then((res) => {
-  console.log(res.data.blog);
+  console.log(res.data.blog)
 }).catch((err) => {
-  console.log(err);
-});
+  console.log(err)
+})
